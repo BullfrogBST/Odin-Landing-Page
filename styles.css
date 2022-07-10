@@ -16,6 +16,26 @@ body{
     --gray-6: #646768;
 }
 
+/*Reusable Styles*/
+
+h1{
+    font-size: 32px
+}
+
+.btn{
+    width: 7rem;
+    height: 2.5rem;
+
+    background-color: var(--secondary-color);
+    border: none;
+
+    border-radius: 5px;
+    cursor: pointer;
+
+    color: white;
+    font-weight: bold;
+}
+
 /*Header*/
 
 header{
@@ -48,3 +68,36 @@ nav > ul > li > a:hover{
 }
 
 /*Hero Content*/
+
+.hero{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+
+    background-color: var(--primary-color);
+    color: white;
+    padding: 7rem 10rem;
+
+    height: 25vh;
+}
+
+.hero-right{
+    width: 50%;
+}
+
+.hero-img{
+    width: 25vw;
+    height: auto;
+}
+
+/*Info Section*/
+
+.info{
+    text-align: center;
+    padding: 0 3rem;
+}
+
+.info-cards{
+    display: flex;
+    gap: 3rem;
+}
