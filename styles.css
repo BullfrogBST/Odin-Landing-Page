@@ -224,3 +224,13 @@ nav > ul > li > a:hover{
 
     color: white;
 }
+
+footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+}
