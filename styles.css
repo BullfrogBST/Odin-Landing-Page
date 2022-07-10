@@ -171,3 +171,56 @@ nav > ul > li > a:hover{
 }
 
 /*Sign Up Section*/
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50vh;
+}
+
+.sign-up-box{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 7rem;
+
+    width: 60%;
+    height: 40%;
+    padding: 1rem 5rem;
+
+    border-radius: 5px;
+
+    background-color: var(--secondary-color);
+
+    color: white;
+}
+
+.sign-up-box-r{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-up-header{
+
+}
+
+.sign-up-box-l{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-2{
+    height: 20%;
+    width: 5rem;
+
+    background-color: var(--secondary-color);
+    border-style: none;
+    border: 3px solid white;
+    border-radius: 5px;
+
+    color: white;
+}
